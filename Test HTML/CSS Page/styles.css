@@ -1,0 +1,38 @@
+/* Make all heading elements center aligned */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* Center align unlisted elements */
+p, ul, ol, dl, blockquote, form, fieldset, table, pre, address, dir, menu,
+  center {
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* Make the background aquamarine */
+body {
+  background-color: aquamarine;
+}   
+
+/* Give div elements a purple, rounded background */
+div {
+  background-color: purple;
+  border-radius: 10px;
+    }  
+
+/* Italicize list items */
+li {
+  font-style: italic;
+}
+
+/* Underline h2 items */
+h2 {
+  text-decoration: underline;
+}   
+
+/* Round image corners and make it 50px by 50px */
+img {
+  border-radius: 50px;
+}
